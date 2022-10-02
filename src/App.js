@@ -1,11 +1,11 @@
-import './App.css';
+import MainLayout from '~/layouts/MainLayout';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>My Portfolio</h1>
-    </div>
-  );
+    return (
+        <div className='App'>
+            <MainLayout />
+        </div>
+    );
 }
 
 export default App;

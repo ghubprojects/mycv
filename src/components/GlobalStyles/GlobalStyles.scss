@@ -1,0 +1,88 @@
+@import 'normalize.css';
+
+@font-face {
+    font-family: ProximaNova;
+    src: url('/assets/fonts/ProximaNova/Proxima-Nova-Regular.woff2') format('woff2'),
+        url('/assets/fonts/ProximaNova/Proxima-Nova-Regular.woff') format('woff'),
+        url('/assets/fonts/ProximaNova/Proxima-Nova-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url('/assets/fonts/ProximaNova/ProximaNova-Semibold.woff2') format('woff2'),
+        url('/assets/fonts/ProximaNova/ProximaNova-Semibold.woff') format('woff'),
+        url('/assets/fonts/ProximaNova/ProximaNova-Semibold.otf') format('opentype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url('/assets/fonts/ProximaNova/Proxima-Nova-Bold.woff2') format('woff2'),
+        url('/assets/fonts/ProximaNova/Proxima-Nova-Bold.woff') format('woff'),
+        url('/assets/fonts/ProximaNova/Proxima-Nova-Bold.otf') format('opentype');
+    font-weight: 700;
+}
+
+:root {
+    --default-font: ProximaNova, sans-serif;
+    --primary-color: rgb(75, 77, 76);
+
+    --main-layout-width: 1194px;
+    --main-layout-height: 1690px;
+
+    --left-col-width: 444px;
+    --right-col-width: 750px;
+
+    --left-content-width: 356px;
+    --right-content-width: 646px;
+
+    --footer-height: 198px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: var(--default-font);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    overflow: overlay;
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+input {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}

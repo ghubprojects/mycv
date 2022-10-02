@@ -1,0 +1,29 @@
+.wrapper {
+    width: var(--left-col-width);
+    color: white;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 298px;
+    height: 298px;
+    margin: 64px auto;
+    background-color: white;
+
+    .avatar-img {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+.container {
+    width: var(--left-content-width);
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

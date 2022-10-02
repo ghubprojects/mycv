@@ -1,0 +1,32 @@
+.wrapper {
+    position: relative;
+}
+
+.background {
+    display: flex;
+    height: var(--main-layout-height);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: -1000;
+}
+
+.left-col {
+    width: 444px;
+    background-color: rgb(61, 63, 62);
+}
+
+.right-col {
+    width: 750px;
+    background-color: white;
+}
+
+.header {
+    width: var(--main-layout-width);
+    position: absolute;
+    top: 0;
+}
+
+.footer {
+    width: var(--main-layout-width);
+    position: absolute;
+    top: calc(var(--main-layout-height) - var(--footer-height));
+}
