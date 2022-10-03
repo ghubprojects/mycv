@@ -1,13 +1,18 @@
 .title {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+
     font-size: 2.4rem;
+    gap: 8px;
     .item {
         list-style: none;
+        text-align: justify;
     }
 }

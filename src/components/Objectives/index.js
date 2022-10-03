@@ -9,12 +9,13 @@ function Objectives() {
 
             <ul className={cx('content')}>
                 <li className={cx('item')}>
-                    Promote my abilities and learn to accumulate experience.
+                    Promote my abilities and learn to accumulate experience in a prof- essional
+                    working environment.
                 </li>
 
                 <li className={cx('item')}>
-                    Strive to work hard to achieve high work efficiency and contribute actively into
-                    the company development.
+                    Strive to work hard to achieve high work efficiency and contri- bute actively
+                    into the company development.
                 </li>
             </ul>
         </div>
