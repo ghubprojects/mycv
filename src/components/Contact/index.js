@@ -7,9 +7,9 @@ const cx = classNames.bind(styles);
 const infos = [
     { icon: <PhoneIcon />, data: '08 678 08 529' },
     { icon: <CakeIcon />, data: '23 - 08 - 2002' },
-    { icon: <MailIcon />, data: 'anhtheit2002@gmail.com' },
     { icon: <HomeIcon />, data: 'Nam Tu Liem, Ha Noi' },
-    { icon: <LinkedinIcon />, href: 'https://linkedin.com/in/theanh-in/' },
+    { icon: <MailIcon />, data: 'anhtheit2002@gmail.com' },
+    { icon: <LinkedinIcon />, data: 'linkedin-theanh', href: 'https://linkedin.com/in/theanh-in/' },
 ];
 
 function Contact() {
@@ -20,10 +20,12 @@ function Contact() {
                 {infos.map((info, index) => (
                     <div key={index} className={cx('info')}>
                         {info.icon}
-                        {info.data || (
+                        {info.href ? (
                             <a href={info.href} target='_blank' rel='noreferrer'>
-                                theanh-in
+                                {info.data}
                             </a>
+                        ) : (
+                            info.data
                         )}
                     </div>
                 ))}

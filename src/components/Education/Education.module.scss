@@ -22,11 +22,12 @@
     display: flex;
     justify-content: space-between;
     .name {
+        font-size: 2.4rem;
         font-weight: 700;
     }
 
     .time {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 }
 
@@ -37,8 +38,5 @@
 }
 
 .content-title {
-}
-
-.content-data {
-    font-weight: 700;
+    font-weight: 600;
 }

@@ -3,16 +3,24 @@ import styles from './Skills.module.scss';
 
 const cx = classNames.bind(styles);
 
+const skills = [
+    { data: 'HTML & CSS, JS ES6, SCSS, Responsive' },
+    { data: 'RDBMS MySQL' },
+    { data: 'Version Control Github' },
+    { data: 'ReactJS Basic, Router, Hooks' },
+    { data: 'OOP, Data Structure and Algorithms' },
+];
+
 function Skills() {
     return (
         <div className={cx('wrapper')}>
             <div className={cx('title')}>Technical Skills</div>
             <ul className={cx('content')}>
-                <li className={cx('item')}>HTML &amp; CSS, JS ES6, SCSS, Responsive</li>
-                <li className={cx('item')}>RDBMS MySQL</li>
-                <li className={cx('item')}>Version Control Github</li>
-                <li className={cx('item')}>ReactJS basic, Router, Hooks</li>
-                <li className={cx('item')}>OOP, Data Structure and Algorithms</li>
+                {skills.map((skill, index) => (
+                    <li key={index} className={cx('item')}>
+                        {skill.data}
+                    </li>
+                ))}
             </ul>
         </div>
     );
