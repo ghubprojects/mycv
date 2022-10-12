@@ -14,7 +14,7 @@ function LeftColumn() {
     return (
         <div className={cx('wrapper')}>
             <div className={cx('avatar')}>
-                <Image className={cx('avatar-img')} src={images.cafe} />
+                <Image className={cx('avatar-img')} src={images.avatar} />
             </div>
 
             <div className={cx('container')}>
