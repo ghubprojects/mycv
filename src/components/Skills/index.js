@@ -4,10 +4,10 @@ import styles from './Skills.module.scss';
 const cx = classNames.bind(styles);
 
 const skills = [
-    { data: 'HTML & CSS, JS ES6, SCSS, Responsive' },
+    { data: 'HTML & CSS, JS ES6, SCSS, TailwindCSS, Responsive' },
+    { data: 'ReactJS Basic, Router, Hooks' },
     { data: 'RDBMS MySQL' },
     { data: 'Version Control Github' },
-    { data: 'ReactJS Basic, Router, Hooks' },
     { data: 'OOP, Data Structure and Algorithms' },
 ];
 

@@ -31,10 +31,10 @@ const projects = [
         description:
             'music streaming website with relaxing songs you can listen to while working or studying',
         features: 'music player, toggle dark light theme, share modal, real-time clock, fullscreen',
-        technologies: 'React, SCSS',
+        technologies: 'React, SCSS, TailwindCSS',
     },
     {
-        name: 'My Portfolio',
+        name: 'My CV',
         preview: {
             href: 'https://mycv-ghubprojects.vercel.app/',
             shortUrl: 'mycv-ghubprojects.vercel.app',
@@ -43,7 +43,7 @@ const projects = [
             href: 'https://github.com/ghubprojects/mycv',
             shortUrl: 'ghubprojects/mycv',
         },
-        description: 'my online portfolio',
+        description: 'my online cv',
         technologies: 'React, SCSS',
     },
 ];

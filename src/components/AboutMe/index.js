@@ -9,7 +9,7 @@ function AboutMe() {
             <div className={cx('title')}>About me</div>
             <div className={cx('content')}>
                 <p>
-                    With more than two years of university education, I acquired fundamental
+                    With more than three years of university education, I acquired fundamental
                     knowledge of Object-Oriented Programming, Data Structure and Algorithms and
                     Database. Besides, I learned Web Development myself and had some projects listed
                     below. I am very much looking forward to becoming a Web Developer, accumulating
